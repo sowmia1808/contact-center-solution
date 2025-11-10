@@ -57,7 +57,7 @@ export default function Solutionclient() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
       {/* Page Heading */}
-      <div className="relative w-full h-100 sm:h-96 lg:h-[700px] ">
+      <div className="relative w-full h-100 sm:h-96 lg:h-[700px] lg:mt-25 ">
         <Image
           src={solutionimg}
           alt="Tegsoft Contact Center Solutions"
