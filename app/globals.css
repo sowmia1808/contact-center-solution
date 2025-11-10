@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #696868; /* Light ash */
+  --foreground: #171717; /* Text color */
+  --primary: #c9a0b5;    /* Deep Pink for buttons/headers */
+  --secondary: #442335;  /* Soft Pink accents */
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary: #2e2d2d;
+    --secondary: #52293f;
+  }
+}
+
+body {
+ background: linear-gradient(135deg, #c5c4c4, #926a80); 
+   color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
