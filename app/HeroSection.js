@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import heroimage from "../public/images/heroimage.png"
-import abouthome from "../public/images/about.png"
+import abouthome from "../public/images/abouthome.png"
 import ProductCard from "../components/ProductCard";
 import { motion } from "framer-motion";
 import { FaCommentDots, FaPhoneAlt, FaHeadset, FaRandom, FaProjectDiagram } from "react-icons/fa";
