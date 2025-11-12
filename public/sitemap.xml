@@ -1,113 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://callcentersolutiondubai.com/</loc>
+    <loc>https://contact-center-solution.vercel.app/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/about</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/contact</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pricing -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/pricing</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Solutions -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/solutions</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Why Tegsoft -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/about</loc>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft/features</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/contact</loc>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft/voice-quality</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/pricing</loc>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft/deployment-options</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/blog</loc>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft/benefits</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/solutions</loc>
+    <loc>https://contact-center-solution.vercel.app/whytegsoft/use-cases</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Solutions subpages -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/solutions/healthcare</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/insurance</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft/features</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/real-estate</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft/voice-quality</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/travel-tourism</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft/deployment-options</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/municipality</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft/benefits</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/education</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/whytegsoft/use-cases</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/energy</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/solutions/healthcare</loc>
+    <loc>https://contact-center-solution.vercel.app/solutions/finance</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog posts -->
+  <url>
+    <loc>https://contact-center-solution.vercel.app/blog/call-center-solutions-customer-satisfaction</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://callcentersolutiondubai.com/solutions/insurance</loc>
+    <loc>https://contact-center-solution.vercel.app/blog/5-ways-call-center-solutions-improve-customer-satisfaction</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/real-estate</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/travel-tourism</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/municipality</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/education</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/energy</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/solutions/finance</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/blog/call-center-solutions-customer-satisfaction</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://callcentersolutiondubai.com/blog/5-ways-call-center-solutions-improve-customer-satisfaction</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
+
 </urlset>
