@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-https://contact-center-solution.vercel.app/sitemap.xml
+Sitemap: https://contact-center-solution.vercel.app/sitemap.xml

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Base URL of your site
-const BASE_URL = 'https://callcentersolutiondubai.com';
+const BASE_URL = 'https://contact-center-solution.vercel.app';
 
 // Static pages
 const staticPages = [

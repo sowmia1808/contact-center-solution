@@ -1,49 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
   <url>
     <loc>https://contact-center-solution.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- About -->
   <url>
     <loc>https://contact-center-solution.vercel.app/about</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Contact -->
   <url>
     <loc>https://contact-center-solution.vercel.app/contact</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Pricing -->
   <url>
     <loc>https://contact-center-solution.vercel.app/pricing</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Blog -->
   <url>
     <loc>https://contact-center-solution.vercel.app/blog</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Solutions -->
   <url>
     <loc>https://contact-center-solution.vercel.app/solutions</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Why Tegsoft -->
   <url>
     <loc>https://contact-center-solution.vercel.app/whytegsoft</loc>
     <changefreq>daily</changefreq>
@@ -74,8 +60,6 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Solutions subpages -->
   <url>
     <loc>https://contact-center-solution.vercel.app/solutions/healthcare</loc>
     <changefreq>daily</changefreq>
@@ -116,8 +100,6 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Blog posts -->
   <url>
     <loc>https://contact-center-solution.vercel.app/blog/call-center-solutions-customer-satisfaction</loc>
     <changefreq>daily</changefreq>
@@ -128,5 +110,4 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
-
 </urlset>
