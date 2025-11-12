@@ -17,7 +17,7 @@ export default function Footer() {
      {/* About / Logo + Text */}
 <div className="flex flex-col items-start">
   {/* Logo */}
-  <div className="w-20 lg:w-80 lg:h-40   relative flex-shrink-0 lg:-mt-15 lg:-ml-23">
+  <div className="w-50 mr-35 -mt-20 -mb-10 h-40 lg:w-80 lg:h-40   relative flex-shrink-0 lg:-mt-15 lg:-ml-23 md:mb-2">
     <Image
       src="/images/logo.png"
       alt="Techbee logo"
