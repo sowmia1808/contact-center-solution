@@ -57,18 +57,19 @@ export default function Solutionclient() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
       {/* Page Heading */}
-      <div className="relative w-full h-100 sm:h-96 lg:h-[700px] lg:mt-25 ">
-        <Image
-          src={solutionimg}
-          alt="Tegsoft Contact Center Solutions"
-          className="object-contain"
-          fill
-          sizes="(max-width: 1024px) 100vw, 50vw"
-        />
-      </div>
+     <div className="relative w-full md:h-[500px] lg:h-[700px] h-[200px]">
+  <Image
+    src={solutionimg}
+    alt="Tegsoft Contact Center Solutions"
+    className="object-fill"
+    fill
+    sizes="100vw"
+    priority
+  />
+</div>
 
       {/* Right Side - Text */}
-      <div className="text-center lg:text-left -mt-20">
+      <div className="text-center lg:text-left mt-15">
         <h1 className="text-xl md:text-5xl font-extrabold text-pink-700 mb-6 leading-tight text-center">
           Tegsoft Contact Center Solutions in UAE
         </h1>

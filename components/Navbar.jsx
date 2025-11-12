@@ -209,7 +209,7 @@ export default function Navbar() {
               href="mailto:sales@techbee.ae"
               className="flex items-center text-white  hover:text-pink-600 "
             >
-              <HiOutlineMail className="w-5 h-5 mr-2" /> sales@techbee.ae
+              <HiOutlineMail className="w-5 h-5 mr-2" /> info@techbee.ae
             </a>
           </div>
         </div>

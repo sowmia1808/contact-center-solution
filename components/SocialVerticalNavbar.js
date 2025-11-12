@@ -1,15 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaYoutube, FaTwitter, FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { FaYoutube, FaTwitter, FaInstagram, FaFacebookF, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 
 export default function SocialNavbar() {
   const socialLinks = [
-    { icon: <FaYoutube size={30}/>, url: "https://youtube.com" },
-    { icon: <FaTwitter size={30} />, url: "https://twitter.com" },
-    { icon: <FaInstagram size={30}/>, url: "https://instagram.com" },
-    { icon: <FaFacebookF size={30} />, url: "https://facebook.com" },
-    { icon: <FaWhatsapp size={30}/>, url: "https://wa.me/1234567890" },
+    { icon: <FaYoutube size={30}/>, url: "https://www.youtube.com/@TechbeeUAE" },
+  { icon: <FaTwitter size={30} />, url: "https://twitter.com/techbeeuae" },
+      { icon: <FaInstagram size={30}/>, url: "https://www.instagram.com/techbeeuae/" },
+    { icon: <FaFacebookF size={30} />, url: "https://www.facebook.com/techbeeuae/" },
+    { icon: <FaLinkedin size={30} />, url: "https://linkedin.com/company/techbeeuae" },
+    { icon: <FaWhatsapp size={30}/>, url: "https://wa.me/971564116174" },
   ];
 
   return (

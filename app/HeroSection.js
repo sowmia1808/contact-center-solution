@@ -8,6 +8,7 @@ import { FaCommentDots, FaPhoneAlt, FaHeadset, FaRandom, FaProjectDiagram } from
 import Link from "next/link";
 import {useRef, useEffect, useState } from "react";
 import Faq from "../components/Faq"
+import emailjs from "@emailjs/browser"; 
 
 
 
@@ -21,6 +22,7 @@ export default function HeroSection() {
       phone: "",
       message: "",
     });
+    
 
     // Update radius based on image size
   useEffect(() => {
@@ -52,30 +54,43 @@ export default function HeroSection() {
       });
     };
   
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      setLoading(true);
-      setStatus("");
-  
-      try {
-        const res = await fetch("/api/contact", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        });
-  
-        if (res.ok) {
-          setStatus("✅ Your inquiry has been sent successfully.");
-          setFormData({ name: "", companyname:"", email: "", phone: "", message: "" });
-        } else {
-          setStatus("❌ Something went wrong. Please try again.");
-        }
-      } catch (err) {
-        console.error(err);
-        setStatus("⚠️ Error sending message.");
-      }
-      setLoading(false);
-    };
+    const handleSubmit = (e) => {
+  e.preventDefault();
+  setLoading(true);
+  setStatus("");
+
+  // 1️⃣ Send email to Admin
+  emailjs.send(
+    "service_z4sjz6g",          // Your EmailJS Service ID
+    "template_8vwsybw",         // Admin template ID
+    formData,                    // formData object
+    "QhexQlB877HpD5wdO"         // Your Public Key
+  ).then(
+    () => {
+      console.log("Admin email sent");
+    },
+    (error) => {
+      console.error("Admin email failed:", error);
+    }
+  );
+
+  // 2️⃣ Send Auto-Reply to User
+  emailjs.send(
+    "service_z4sjz6g",          // Your EmailJS Service ID
+    "template_r7u55po",         // Auto-reply template ID
+    formData,
+    "QhexQlB877HpD5wdO"         // Your Public Key
+  ).then(
+    () => {
+      setStatus("✅ Message sent successfully! Check your email for confirmation.");
+      setFormData({ name: "", companyname: "", email: "", phone: "", message: "" });
+    },
+    (error) => {
+      console.error("Auto-reply failed:", error);
+      setStatus("❌ Failed to send message. Please try again.");
+    }
+  ).finally(() => setLoading(false));
+};
   return (
    <>
    <section
