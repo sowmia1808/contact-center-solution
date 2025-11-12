@@ -6,6 +6,10 @@ export const metadata = {
   title: "Energy Solutions with Tegsoft | UAE Utilities & Energy Providers",
   description:
     "Tegsoft streamlines communication, operations, and customer service for energy and utility companies across UAE through AI-driven multichannel solutions.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Energy UAE",
     "Utility Communication Solution",

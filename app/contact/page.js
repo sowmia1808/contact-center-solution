@@ -8,7 +8,10 @@ export const metadata = {
   authors: [{ name: "Techbee Solutions" }],
   creator: "Techbee Solutions",
   publisher: "Techbee Solutions",
-  robots: "index, follow",
+ robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "Contact Us - Call Center Solutions Dubai",
     description: "Reach out to our expert team for inquiries about call center solutions and customer support services in Dubai.",

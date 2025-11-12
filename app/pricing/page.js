@@ -5,6 +5,10 @@ export const metadata = {
   title: "Tegsoft Pricing Plans – Cloud Contact Center UAE",
   description:
     "Compare Tegsoft cloud contact center pricing plans in UAE: Text Based, Inbound, Outbound, Blended & Omnichannel.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords:
     "Tegsoft, Contact Center, Pricing, UAE, Inbound, Outbound, Omnichannel, Blended, Cloud Call Center",
   canonical: "https://yourdomain.com/pricing",

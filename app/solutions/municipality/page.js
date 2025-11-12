@@ -6,6 +6,10 @@ export const metadata = {
   title: "Municipality Solutions with Tegsoft | UAE Local Governments",
   description:
     "Tegsoft helps municipal offices and local governments in UAE streamline citizen services, improve communication, and automate internal workflows.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Municipality UAE",
     "Municipal Contact Center Solution",

@@ -3,9 +3,14 @@ export const metadata = {
   title: "Tegsoft Contact Center Solutions in UAE | Cloud-Based & Omnichannel",
   description:
     "Explore Tegsoft’s cloud-based contact center solutions in UAE. Features include IVR, CRM integration, AI workflows, omnichannel communication, and real-time monitoring.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft UAE",
     "Contact Center Solutions UAE",
+    
     "Cloud Contact Center Dubai",
     "Omnichannel Contact Center",
     "IVR System UAE",

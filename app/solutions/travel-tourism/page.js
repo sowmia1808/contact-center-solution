@@ -6,6 +6,10 @@ export const metadata = {
   title: "Travel & Tourism Solutions with Tegsoft | UAE Travel Agencies",
   description:
     "Tegsoft helps travel agencies and tour operators in UAE improve customer support, automate bookings, and streamline operations.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Travel UAE",
     "Tour Operator CRM",

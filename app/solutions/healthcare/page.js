@@ -6,6 +6,10 @@ export const metadata = {
   title: "Healthcare Solutions with Tegsoft | UAE Hospitals & Clinics",
   description:
     "Tegsoft empowers healthcare organizations in UAE with AI-driven communication solutions to improve patient support, reduce wait times, and streamline workflows.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Healthcare UAE",
     "Hospital Contact Center Solution",

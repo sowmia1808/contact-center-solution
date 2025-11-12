@@ -2,6 +2,10 @@
 export const metadata = {
   title: "Contact Center Solution in UAE | Dubai, Abu Dhabi, Sharjah, Ajman, Al Ain, Fujairah & RAK",
   description: "Leading AI-powered contact center solution provider in UAE. Cloud-based and on-premise call center solutions for Dubai, Abu Dhabi, Sharjah, Ajman, Al Ain, Ras Al Khaimah & Fujairah. Enhance customer support with inbound, outbound, blended, text-based, and omnichannel contact center solutions.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Contact Center Solution UAE",
     "AI Contact Center UAE",

@@ -1,6 +1,10 @@
 export const metadata = {
   title: "Why Tegsoft is the Best Contact Center Solution in UAE | Cloud & On-Premise",
   description: "Discover why Tegsoft is the leading contact center solution in the UAE. Cloud-based, on-premise, inbound, outbound, blended & omnichannel call center software.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Contact Center UAE",
     "Best Call Center Solution UAE",

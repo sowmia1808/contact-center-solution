@@ -6,6 +6,10 @@ export const metadata = {
   title: "Real Estate Solutions with Tegsoft | UAE Property Agencies",
   description:
     "Tegsoft helps real estate agencies in UAE streamline client communication, automate workflows, and improve lead management.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Real Estate UAE",
     "Property CRM",

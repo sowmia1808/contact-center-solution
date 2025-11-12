@@ -15,6 +15,10 @@ import { organizationSchema } from "../../components/seo/schema/organization";
 export const metadata = {
   title: "About Us | Contact Center Solution in Dubai - Tegsoft UAE",
   description: "Learn about our contact center solutions in Dubai, UAE. Official Tegsoft partner providing cloud-based and on-premise call center software.",
+  robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Contact Center Solution Dubai",
     "Call Center Software UAE",

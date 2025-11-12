@@ -6,6 +6,10 @@ export const metadata = {
   title: "Insurance Solutions with Tegsoft | UAE Insurers",
   description:
     "Tegsoft empowers insurance companies in UAE with AI-powered contact center solutions to improve customer support, claims management, and workflow efficiency.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Insurance UAE",
     "Insurance Contact Center Solution",

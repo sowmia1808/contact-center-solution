@@ -5,6 +5,10 @@ export const metadata = {
   title: "Education Solutions with Tegsoft | UAE Schools & Universities",
   description:
     "Tegsoft enhances communication, administration, and engagement for educational institutions across UAE, connecting students, parents, and staff through a unified platform.",
+    robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     "Tegsoft Education UAE",
     "School Communication UAE",
