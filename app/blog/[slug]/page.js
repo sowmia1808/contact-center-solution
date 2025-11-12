@@ -57,7 +57,7 @@ export default async function BlogPost({ params }) {
     },
   };
   return (
-    <div className="max-w-4xl mx-auto py-10 px-4 mt-30 lg:mt-30">
+    <div className="max-w-4xl mx-auto py-10 px-4  lg:mt-30">
 
       {/* Inject JSON-LD */}
       <JsonLd data={blogSchema} />

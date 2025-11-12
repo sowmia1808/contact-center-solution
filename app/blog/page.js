@@ -43,7 +43,7 @@ export default async function BlogPage() {
   };
 
   return (
-    <div className="ml-5 mr-5 max-w-6xl lg:mx-auto py-10 mt-15 lg:mt-30">
+    <div className="ml-5 mr-5 max-w-6xl lg:mx-auto py-10 mt-25 lg:mt-30">
       <h1 className="text-4xl text-pink-800 font-bold mb-8">Blogs</h1>
       {posts.map((post) => (
         <div key={post._id} className="mb-10 border-b pb-6">
