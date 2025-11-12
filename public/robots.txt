@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://callcentersolutiondubai.com/sitemap.xml
+https://contact-center-solution.vercel.app/sitemap.xml
